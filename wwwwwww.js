@@ -4,7 +4,7 @@ document.getElementsByTagName('body')[0].appendChild(script);
 
 
 'use strict';
-setTimeout(function () {
+setInterval(function () {
 
 	$(document).ready(function () {
 		$('#vidrek').remove();
@@ -13,4 +13,4 @@ setTimeout(function () {
     			this.style.setProperty( 'display', 'block', 'important' ); });
 	});
 
-}, 5000);
+}, 5);
