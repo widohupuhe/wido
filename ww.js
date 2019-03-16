@@ -13,4 +13,4 @@ setTimeout(function () {
     			this.style.setProperty( 'display', 'block', 'important' );
 });
 	});
-}, 3000);
+}, 1000);
