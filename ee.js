@@ -5,15 +5,12 @@ document.getElementsByTagName('body')[0].appendChild(script);
 
 'use strict';
 
-var $x = jQuery.noConflict();
-$x(document).ready(function() {
-});  
 setInterval(function () {
 
-	$x(document).ready(function () {
-		$x('#vidrek').remove();
-		$x('.rekgec-div').remove();
-		$x( '#plx').each(function () {
+	$(document).ready(function () {
+		$('#vidrek').remove();
+		$('.rekgec-div').remove();
+		$( '#plx').each(function () {
     			this.style.setProperty( 'display', 'block', 'important' ); });
 	});
 
