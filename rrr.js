@@ -12,6 +12,7 @@ setInterval(function () {
 		
 		$('.r985x').remove();
 		$('.reklam-728-90').remove();
+		$('.reklam-300x250').remove();
 		$('.rekgec-div').remove();
 		$('.rk300x').remove();
 		$('.fbbegen').remove();
