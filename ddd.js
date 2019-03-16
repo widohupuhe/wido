@@ -7,6 +7,6 @@ document.getElementsByTagName('body')[0].appendChild(script);
 
 setTimeout(function () {
 	$(document).ready(function () {
-		$('.logo').remove();
+		$('#vidrek').remove();
 	});
 }, 3000);
