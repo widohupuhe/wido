@@ -8,5 +8,6 @@ document.getElementsByTagName('body')[0].appendChild(script);
 setTimeout(function () {
 	$(document).ready(function () {
 		$('#vidrek').remove();
+		$('.rekgec-div').remove();
 	});
 }, 3000);
