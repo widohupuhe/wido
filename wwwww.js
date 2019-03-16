@@ -4,7 +4,7 @@ document.getElementsByTagName('body')[0].appendChild(script);
 
 
 'use strict';
-
+setTimeout(function () {
 
 	$(document).ready(function () {
 		$('#vidrek').remove();
@@ -12,5 +12,5 @@ document.getElementsByTagName('body')[0].appendChild(script);
 		$( '#plx').each(function () {
     			this.style.setProperty( 'display', 'block', 'important' ); });
 	});
-setTimeout(function () {
-}, 10);
+
+}, 5000);
