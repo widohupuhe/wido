@@ -9,6 +9,6 @@ setTimeout(function () {
 	$(document).ready(function () {
 		$('#vidrek').remove();
 		$('.rekgec-div').remove();
-		$('.plx').css("display", "block!important");
+		$('#plx').css("display", "block!important");
 	});
 }, 3000);
