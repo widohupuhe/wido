@@ -21,10 +21,8 @@ setInterval(function () {
 		$( '#plx').each(function () {
     			this.style.setProperty( 'display', 'block', 'important' ); });
 		$( '.orta').each(function () {
-    			this.style.setProperty( 'margin', '16px auto 0', 'important' ); });
+    			this.style.setProperty( 'margin', '16px auto 0px', 'important' ); });
 	});
 
 }, 5);
-
-argin: 180px auto 0!important;
 
